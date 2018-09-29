@@ -6,7 +6,6 @@ import pl.sdacademy.javaktw7.chat.model.DatedChatMessage;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -72,5 +71,5 @@ public class ChatLog {
         }
 
 //        clientConnections.values().iterator().forEachRemaining((o) -> {});
-    }
+}
 }
